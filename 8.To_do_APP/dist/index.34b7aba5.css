@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  background-image: radial-gradient(circle at 69% 86%, #a5a5a50f 0% 25%, #c1c1c10f 25% 50%, #dddddd0f 50% 75%, #f9f9f90f 75% 100%), radial-gradient(circle at 49% 76%, #8181810f 0% 25%, #a4a4a40f 25% 50%, #c8c8c80f 50% 75%, #ebebeb0f 75% 100%), radial-gradient(circle at 22% 64%, #adadad0f 0% 25%, #7777770f 25% 50%, #4040400f 50% 75%, #0a0a0a0f 75% 100%), linear-gradient(307deg, #fff, #fff);
+  border: 1px solid #0000;
+  border-radius: 4px;
+  flex-direction: column;
+  gap: 30px;
+  width: 450px;
+  height: 350px;
+  margin: 40px auto;
+  display: flex;
+  box-shadow: 0 50px 100px -20px #32325d40, 0 30px 60px -30px #0000004d, inset 0 -2px 6px #0a254059;
+}
+
+.App h2 {
+  text-align: center;
+  text-shadow: 1px .2px .2px #000, 3px 3px 5px #00f;
+  margin-top: 8px;
+}
+
+.list {
+  text-align: left;
+  padding: 15px;
+}
+
+.App input {
+  background: #dae0e2;
+  border-radius: 3px;
+  width: 210px;
+  margin-left: 50px;
+  margin-right: 2px;
+  padding: 5px;
+}
+
+li {
+  color: #fff;
+  background: #5f27cd;
+  border-radius: 3px;
+  margin: 3px 10px;
+  padding: 5px 10px;
+  list-style: none;
+  box-shadow: 0 4px 12px #0000001a;
+}
+
+.main {
+  color: beige;
+  background: #9c7cda;
+  border-radius: 3px;
+  margin: 5px;
+  padding: 3px;
+}
+
+li {
+  justify-content: space-between;
+  display: flex;
+}
+
+#logo {
+  gap: 15px;
+  display: flex;
+}
+
+/*# sourceMappingURL=index.34b7aba5.css.map */
