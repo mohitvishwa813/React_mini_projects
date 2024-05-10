@@ -1,0 +1,44 @@
+.calc {
+  width: 320px;
+  margin: 100px auto;
+}
+
+#answer {
+  text-align: right;
+  background: #e2e2e2;
+  border: 2px solid #4f2f2f;
+  border-radius: 12px 12px 2px 2px;
+  width: 297px;
+  height: 35px;
+  padding: 10px;
+  font-size: 30px;
+  box-shadow: -3px 10px 44px -1px #000000a6;
+}
+
+.button {
+  color: #f0f8ff;
+  background: #333;
+  border: 1px solid #000;
+  width: 80px;
+  height: 80px;
+  font-size: 25px;
+  box-shadow: -3px 10px 44px -1px #000000a6;
+}
+
+.button1 {
+  border-bottom-left-radius: 12px;
+  width: 160px;
+}
+
+.button2 {
+  border-bottom-right-radius: 12px;
+  width: 160px;
+}
+
+.button:hover {
+  color: #fff;
+  cursor: pointer;
+  background: #444;
+}
+
+/*# sourceMappingURL=index.34b7aba5.css.map */
